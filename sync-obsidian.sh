@@ -30,20 +30,20 @@ cd "$HUGO_ROOT"
 
 echo "🔧 Processing Obsidian content..."
 
+# 자동 커버 이미지 설정 (이미지 변환 전에 먼저 실행!)
+if [ -f "scripts/auto_cover_image.py" ]; then
+    echo "  🖼️  Auto-setting cover images..."
+    python3 scripts/auto_cover_image.py
+else
+    echo "  ⚠️  Auto cover image script not found, skipping..."
+fi
+
 # 이미지 처리
 if [ -f "scripts/copy_images_and_update_image_path.py" ]; then
     echo "  📸 Converting image links..."
     python3 scripts/copy_images_and_update_image_path.py
 else
     echo "  ⚠️  Image processing script not found, skipping..."
-fi
-
-# 자동 커버 이미지 설정
-if [ -f "scripts/auto_cover_image.py" ]; then
-    echo "  🖼️  Auto-setting cover images..."
-    python3 scripts/auto_cover_image.py
-else
-    echo "  ⚠️  Auto cover image script not found, skipping..."
 fi
 
 # YouTube 링크 변환

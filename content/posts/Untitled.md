@@ -2,7 +2,8 @@
 title: 긴다농
 date: 2025-10-17
 draft: false
-tags: []
+tags:
+  - 긴다농
 cover:
   image: /images/Pasted image 20251017040952.png
   alt:
@@ -10,8 +11,4 @@ cover:
 ---
 !![Pasted image 20251017040952.png](/images/Pasted%20image%2020251017040952.png)
 
-
-
-
-#긴다농
-
+한교동 하이 

@@ -46,6 +46,14 @@ else
     echo "  ⚠️  Image processing script not found, skipping..."
 fi
 
+# 중복 커버 이미지 제거
+if [ -f "scripts/remove_first_image.py" ]; then
+    echo "  🗑️  Removing duplicate cover images..."
+    python3 scripts/remove_first_image.py
+else
+    echo "  ⚠️  Remove duplicate image script not found, skipping..."
+fi
+
 # YouTube 링크 변환
 if [ -f "scripts/update_youtube_path.py" ]; then
     echo "  🎥 Converting YouTube links..."

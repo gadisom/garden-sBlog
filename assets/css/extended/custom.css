@@ -1,0 +1,5 @@
+/* Profile image - maintain aspect ratio */
+.profile img {
+  object-fit: contain !important;
+  border-radius: 10px;
+}

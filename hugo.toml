@@ -30,8 +30,8 @@ timeZone = 'Asia/Seoul'
   title = "안녕하세요, 김정원입니다 👋"
   subtitle = "개발자로 성장하며 배우고 경험한 것들을 기록하는 디지털 정원입니다."
   imageUrl = "/images/cover.PNG"
-  imageWidth = 255
-  imageHeight = 226
+  imageWidth = 350
+  imageHeight = 310
   imageTitle = "프로필 이미지"
 
   [[params.profileMode.buttons]]

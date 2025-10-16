@@ -1,4 +1,4 @@
-baseURL = 'https://garden-morning-glitter-2653.fly.dev/'
+baseURL = 'https://garden-s-blog.vercel.app/'
 languageCode = 'ko-kr'
 title = 'My Garden'
 theme = 'PaperMod'

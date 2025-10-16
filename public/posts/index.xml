@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on My Garden</title><link>https://garden-morning-glitter-2653.fly.dev/posts/</link><description>Recent content in Posts on My Garden</description><generator>Hugo -- 0.151.0</generator><language>ko-kr</language><lastBuildDate>Thu, 16 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://garden-morning-glitter-2653.fly.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Test 1</title><link>https://garden-morning-glitter-2653.fly.dev/posts/test-1/</link><pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate><guid>https://garden-morning-glitter-2653.fly.dev/posts/test-1/</guid><description>&lt;h1 id="첫-번째-테스트-포스트"&gt;첫 번째 테스트 포스트&lt;/h1&gt;
+&lt;p&gt;안녕하세요! 이것은 첫 번째 테스트 게시글입니다.&lt;/p&gt;
+&lt;h2 id="obsidian에서-hugo로"&gt;Obsidian에서 Hugo로&lt;/h2&gt;
+&lt;p&gt;이 글은 Obsidian의 &lt;code&gt;publish&lt;/code&gt; 폴더에서 작성되어 Hugo 블로그로 자동 동기화됩니다.&lt;/p&gt;
+&lt;h3 id="기능-테스트"&gt;기능 테스트&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;리스트 아이템 1&lt;/li&gt;
+&lt;li&gt;리스트 아이템 2&lt;/li&gt;
+&lt;li&gt;리스트 아이템 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;굵은 글씨&lt;/strong&gt;와 &lt;em&gt;기울임 글씨&lt;/em&gt;도 잘 작동합니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// 코드 블록 테스트
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;console&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;log&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;인용구도 정상적으로 표시됩니다.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;정상적으로 배포되었다면 성공입니다! 🎉&lt;/p&gt;</description></item><item><title>Welcome to My Digital Garden</title><link>https://garden-morning-glitter-2653.fly.dev/posts/readme/</link><pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate><guid>https://garden-morning-glitter-2653.fly.dev/posts/readme/</guid><description>&lt;h1 id="환영합니다"&gt;환영합니다!&lt;/h1&gt;
+&lt;p&gt;이 폴더의 모든 노트는 자동으로 블로그에 퍼블리시됩니다.&lt;/p&gt;
+&lt;h2 id="사용-방법"&gt;사용 방법&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;이 &lt;code&gt;publish&lt;/code&gt; 폴더에 마크다운 파일을 작성하세요&lt;/li&gt;
+&lt;li&gt;터미널에서 &lt;code&gt;./sync-obsidian.sh&lt;/code&gt; 실행&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo server&lt;/code&gt; 로컬 확인 또는 &lt;code&gt;fly deploy&lt;/code&gt; 배포&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="front-matter-형식"&gt;Front Matter 형식&lt;/h2&gt;
+&lt;p&gt;모든 글은 상단에 아래 형식을 포함해야 합니다:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;title&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;제목&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;date&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;2025-10-16&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;draft&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title/><link>https://garden-morning-glitter-2653.fly.dev/posts/templates/simple-test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://garden-morning-glitter-2653.fly.dev/posts/templates/simple-test/</guid><description>&lt;p&gt;This is a simple test template.&lt;/p&gt;
+&lt;p&gt;Title: &amp;lt;% tp.file.title %&amp;gt;&lt;/p&gt;</description></item><item><title>&lt;% tp.file.title %&gt;</title><link>https://garden-morning-glitter-2653.fly.dev/posts/templates/blog-post/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://garden-morning-glitter-2653.fly.dev/posts/templates/blog-post/</guid><description>&lt;h1 id="-tpfiletitle-"&gt;&amp;lt;% tp.file.title %&amp;gt;&lt;/h1&gt;</description></item></channel></rss>

@@ -38,6 +38,14 @@ else
     echo "  ⚠️  Image processing script not found, skipping..."
 fi
 
+# 자동 커버 이미지 설정
+if [ -f "scripts/auto_cover_image.py" ]; then
+    echo "  🖼️  Auto-setting cover images..."
+    python3 scripts/auto_cover_image.py
+else
+    echo "  ⚠️  Auto cover image script not found, skipping..."
+fi
+
 # YouTube 링크 변환
 if [ -f "scripts/update_youtube_path.py" ]; then
     echo "  🎥 Converting YouTube links..."

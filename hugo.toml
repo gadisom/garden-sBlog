@@ -19,6 +19,11 @@ timeZone = 'Asia/Seoul'
   ShowCodeCopyButtons = true
   ShowToc = true
   TocOpen = false
+  images = ["/images/cover.PNG"]
+
+[params.cover]
+  linkFullImages = true
+  responsiveImages = true
 
 [params.homeInfoParams]
   Title = "안녕하세요, 김정원입니다 👋"

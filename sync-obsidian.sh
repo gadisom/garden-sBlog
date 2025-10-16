@@ -46,16 +46,25 @@ else
     echo "  ⚠️  YouTube conversion script not found, skipping..."
 fi
 
-echo "🚀 Building and deploying..."
+echo "🚀 Committing and pushing to GitHub..."
 
-# Hugo 빌드 (만약 필요하다면)
-# hugo
+# Git에 변경사항 추가
+git add .
 
-# Fly.io 배포
-if command -v fly >/dev/null 2>&1; then
-    fly deploy
-    echo "✅ Deployment complete!"
+# 커밋 메시지 생성
+TIMESTAMP=$(date +"%Y-%m-%d %H:%M:%S")
+git commit -m "Update: Sync from Obsidian ($TIMESTAMP)
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+
+# GitHub에 푸시
+if git push; then
+    echo "✅ Successfully pushed to GitHub!"
+    echo "🌐 Vercel will automatically deploy your changes"
+    echo "📍 Check deployment status at: https://vercel.com"
 else
-    echo "❌ fly command not found. Please install Fly CLI."
+    echo "❌ Git push failed. Please check your credentials."
     exit 1
 fi

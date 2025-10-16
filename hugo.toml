@@ -25,15 +25,26 @@ timeZone = 'Asia/Seoul'
   linkFullImages = true
   responsiveImages = true
 
-[params.homeInfoParams]
-  Title = "안녕하세요, 김정원입니다 👋"
-  Content = """
-개발자로 성장하며 배우고 경험한 것들을 기록하는 디지털 정원입니다.
+[params.profileMode]
+  enabled = true
+  title = "안녕하세요, 김정원입니다 👋"
+  subtitle = "개발자로 성장하며 배우고 경험한 것들을 기록하는 디지털 정원입니다."
+  imageUrl = "/images/cover.PNG"
+  imageWidth = 200
+  imageHeight = 200
+  imageTitle = "프로필 이미지"
 
-**관심사**: 백엔드 개발, 클라우드 아키텍처, 문제 해결
+  [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "/posts"
 
-이곳에서 학습 노트, 프로젝트 회고, 기술 탐구를 공유합니다.
-  """
+  [[params.profileMode.buttons]]
+    name = "Archive"
+    url = "/archives"
+
+  [[params.profileMode.buttons]]
+    name = "About"
+    url = "/about"
 
 [[params.socialIcons]]
   name = "github"

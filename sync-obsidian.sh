@@ -6,8 +6,8 @@ eval "$(rbenv init - 2>/dev/null || true)"
 
 # Obsidian publish 폴더에서 Hugo content/posts로 동기화
 OBSIDIAN_PUBLISH="/Users/kim-jeongwon/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian Vault/publish"
-HUGO_POSTS="/Users/kim-jeongwon/Desktop/blog/garden/content/posts"
-HUGO_ROOT="/Users/kim-jeongwon/Desktop/blog/garden"
+HUGO_POSTS="/Users/kim-jeongwon/Library/Mobile Documents/com~apple~CloudDocs/blog/garden/content/posts"
+HUGO_ROOT="/Users/kim-jeongwon/Library/Mobile Documents/com~apple~CloudDocs/blog/garden"
 
 echo "🔄 Syncing from Obsidian to Hugo..."
 

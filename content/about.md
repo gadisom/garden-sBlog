@@ -8,23 +8,23 @@ ShowBreadCrumbs: false
 
 # 안녕하세요 👋
 
-개발자 김정원입니다.
+iOS 개발자 김정원입니다.
 
 ## 🌱 About This Garden
 
-이 블로그는 제가 학습하고 경험한 것들을 기록하는 디지털 정원입니다.
+이 블로그는 제가 학습하고 경험한 것들을 기록합니다.
 
 ## 💻 Skills
 
-- **Backend**: [여기에 기술 스택 작성]
-- **Frontend**: [여기에 기술 스택 작성]
-- **Tools**: [여기에 도구들 작성]
+- **언어 & 프레임워크**: Swift, SwiftUI, UIKit
+- **비동기 & 반응형 프로그래밍**: Swift Concurrency, Combine, RxSwift & ReactorKit
+- **아키텍처**: Clean Architecture, MVVM, DI
+- **데이터**: SwiftData, SQLite, Firebase
+- **DevOps & 도구**: Tuist, Github Actions, fastlane, Sentry, Amplitude
 
 ## 📫 Contact
 
-- GitHub: [Your GitHub]
-- Email: [Your Email]
+- GitHub: [gadisom](https://github.com/gadisom)
+- Email: [jeongwon.kim64@gmail.com](mailto:jeongwon.kim64@gmail.com)
 
 ---
-
-> 이 블로그는 Obsidian으로 작성하고 Hugo로 빌드되며, Fly.io에 자동 배포됩니다.
